@@ -7,9 +7,6 @@ from tencentcloud.common import credential
 from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException
 # 导入对应产品模块的client models。
 from tencentcloud.cvm.v20170312 import cvm_client, models
-from tencentcloud.vpc.v20170312 import vpc_client, models
-
-from QcloudApi
 
 try:
     # 实例化一个认证对象，入参需要传入腾讯云账户secretId，secretKey
