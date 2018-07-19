@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="" method="post">
+请输入中文或者英文：<br>
+<textarea name="content">{{ getContent }}</textarea>
+<br>
+
+
+{% if getContent %}
+    翻译结果为：<br>
+    <pre>{{ returnContent }}</pre>
+{% endif %}
+<br><input type="submit">
+</form>
+</body>
+</html>
